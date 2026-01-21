@@ -1,1 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Work — Javier Farías</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="nav">
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between;">
+      <a class="brand" href="index.html">JAVIER FARÍAS</a>
+      <div class="menu">
+        <a href="index.html">Home</a>
+        <a class="active" href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="hero">
+      <h1 class="h1" style="font-size:34px;">Work</h1>
+      <p class="sub">Selected projects — Director / Producer.</p>
+    </section>
+
+    <section class="section">
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card" style="grid-column: span 6;">
+          <div class="thumb"><div><div class="kicker">Music Video</div><div class="title">Project Title</div></div></div>
+          <div class="meta"><div class="small">Embed a video or link to a project page.</div></div>
+        </div>
+
+        <div class="card" style="grid-column: span 6;">
+          <div class="thumb"><div><div class="kicker">Commercial</div><div class="title">Project Title</div></div></div>
+          <div class="meta"><div class="small">Add credits, year, platform.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">© <span id="y"></span> Javier Farías</section>
+  </main>
+
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
 
