@@ -51,10 +51,13 @@
 
     <section class="section">
       <h2>Featured Work</h2>
+
+      <!-- SAFER: each card is NOT a clickable <a>. -->
+      <!-- Inside: one link to your Work anchor + one external link to platform. -->
       <div class="grid">
 
         <!-- VUELTAS -->
-        <a class="card" style="grid-column: span 6;" href="work.html#vueltas">
+        <div class="card" style="grid-column: span 6;">
           <div class="thumb">
             <div>
               <div class="kicker">Vimeo</div>
@@ -62,17 +65,15 @@
             </div>
           </div>
           <div class="meta">
-            <div class="small">Director / Producer</div>
-            <div style="margin-top:10px;">
-              <a class="btn" href="https://vimeo.com/330776103" target="_blank" rel="noopener">
-                Watch on Vimeo
-              </a>
+            <div class="cta" style="margin:8px 0 0;">
+              <a class="btn" href="work.html#vueltas">View on site</a>
+              <a class="btn" href="https://vimeo.com/330776103" target="_blank" rel="noopener">Vimeo</a>
             </div>
           </div>
-        </a>
+        </div>
 
         <!-- EXTRANO -->
-        <a class="card" style="grid-column: span 6;" href="work.html#extrano">
+        <div class="card" style="grid-column: span 6;">
           <div class="thumb">
             <div>
               <div class="kicker">YouTube</div>
@@ -80,17 +81,15 @@
             </div>
           </div>
           <div class="meta">
-            <div class="small">Director / Producer</div>
-            <div style="margin-top:10px;">
-              <a class="btn" href="https://www.youtube.com/watch?v=pL6Wiw5phsY" target="_blank" rel="noopener">
-                Watch on YouTube
-              </a>
+            <div class="cta" style="margin:8px 0 0;">
+              <a class="btn" href="work.html#extrano">View on site</a>
+              <a class="btn" href="https://www.youtube.com/watch?v=pL6Wiw5phsY" target="_blank" rel="noopener">YouTube</a>
             </div>
           </div>
-        </a>
+        </div>
 
         <!-- PURA PANTALLA -->
-        <a class="card" style="grid-column: span 6;" href="work.html#pura-pantalla">
+        <div class="card" style="grid-column: span 6;">
           <div class="thumb">
             <div>
               <div class="kicker">Vimeo</div>
@@ -98,17 +97,15 @@
             </div>
           </div>
           <div class="meta">
-            <div class="small">Director / Producer</div>
-            <div style="margin-top:10px;">
-              <a class="btn" href="https://vimeo.com/7567171" target="_blank" rel="noopener">
-                Watch on Vimeo
-              </a>
+            <div class="cta" style="margin:8px 0 0;">
+              <a class="btn" href="work.html#pura-pantalla">View on site</a>
+              <a class="btn" href="https://vimeo.com/7567171" target="_blank" rel="noopener">Vimeo</a>
             </div>
           </div>
-        </a>
+        </div>
 
         <!-- HORROR VACUI -->
-        <a class="card" style="grid-column: span 6;" href="work.html#horror-vacui">
+        <div class="card" style="grid-column: span 6;">
           <div class="thumb">
             <div>
               <div class="kicker">Vimeo</div>
@@ -116,16 +113,15 @@
             </div>
           </div>
           <div class="meta">
-            <div class="small">Director</div>
-            <div style="margin-top:10px;">
-              <a class="btn" href="https://vimeo.com/399693771" target="_blank" rel="noopener">
-                Watch on Vimeo
-              </a>
+            <div class="cta" style="margin:8px 0 0;">
+              <a class="btn" href="work.html#horror-vacui">View on site</a>
+              <a class="btn" href="https://vimeo.com/399693771" target="_blank" rel="noopener">Vimeo</a>
             </div>
           </div>
-        </a>
+        </div>
 
       </div>
+
       <p class="small" style="margin-top:14px;">
         See more on the <a href="work.html" style="text-decoration:underline;">Work</a> page.
       </p>
@@ -134,7 +130,7 @@
     <section class="section">
       <h2>About</h2>
       <p class="small">
-        Venezuelan-born director and producer based in Miami. My work focuses on cinematic rhythm, atmosphere,
+        Venezuelan-born director based in Miami. My work focuses on cinematic rhythm, atmosphere,
         and emotion — across music, documentary and branded storytelling.
       </p>
       <div class="cta">
@@ -143,7 +139,7 @@
     </section>
 
     <section class="footer">
-      © <span id="y"></span> Javier Farías · Director / Producer
+      © <span id="y"></span> Javier Farías · Director
     </section>
   </main>
 
